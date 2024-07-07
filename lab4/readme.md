@@ -7,7 +7,8 @@
 ## Prerequisites
 
 open terminal and install pycryptodome
- ```sh
-    pip install pycryptodome
-    ```
+
+```sh
+pip install pycryptodome
+```
 
