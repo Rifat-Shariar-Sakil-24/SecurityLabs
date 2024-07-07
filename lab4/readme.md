@@ -22,6 +22,9 @@ def aes_key_generate(bits):
    return key
 ```
 
+
+![screenshot](images/1.png)
+
 ### Generating RSA Key. Minimum length is 1024. 
 
 ```sh
