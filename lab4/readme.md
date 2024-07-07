@@ -74,6 +74,15 @@ def aes_decrypt(ciphertext, key, mode):
 
    ```
 
+   
+![screenshot](images/4.png)
+
+![screenshot](images/5.png)
+
+![screenshot](images/6.png)
+
+
+
 ### RSA Encryption and Decryption
 
 ```sh
@@ -86,7 +95,17 @@ def rsa_encrypt(data, public_key):
 def rsa_decrypt(ciphertext, private_key):
    cipher = PKCS1_OAEP.new(private_key)
    return cipher.decrypt(ciphertext)
+
+
+
 ```
+
+   
+![screenshot](images/7.png)
+
+![screenshot](images/8.png)
+
+
 ### RSA Signature
 
 ```sh
@@ -95,6 +114,12 @@ def rsa_sign(data, private_key):
    signature = pkcs1_15.new(private_key).sign(h)
    return signature
 ```
+
+   
+![screenshot](images/9.png)
+![screenshot](images/10.png)
+
+
 ### RSA Signature Verify
 ```sh
 
@@ -106,12 +131,13 @@ def rsa_verify(data, signature, public_key):
    except (ValueError, TypeError):
        return False
 ```
-
+![screenshot](images/11.png)
 ### SHA-256 hashing
 ```sh
 def sha256_hash(data):
    return hashlib.sha256(data).hexdigest()
 ```
+![screenshot](images/12.png)
 
 
 
