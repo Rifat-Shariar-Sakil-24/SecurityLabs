@@ -24,6 +24,7 @@ def aes_key_generate(bits):
 
 
 ![screenshot](images/1.png)
+###
 
 ### Generating RSA Key. Minimum length is 1024. 
 
@@ -39,6 +40,13 @@ def rsa_key_generate(bits):
    return key_private, key_public
    ```
 
+   
+![screenshot](images/2.png)
+
+![screenshot](images/3.png)
+
+
+###
 
 ### AES Encryption and Decryption On Both ECB or CBC Mode
 
